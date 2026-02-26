@@ -8,8 +8,7 @@ app = FastAPI(title="Health Check API", version="1.0.0")
 async def root():
     """Root endpoint"""
     return {
-        "message": "Welcome to Health Check API",
-        "status": "running"
+        "message": "143"
     }
 
 
